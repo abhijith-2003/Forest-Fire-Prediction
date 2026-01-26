@@ -1,12 +1,14 @@
 # Forest Fire Prediction System
 
+![App Preview](./frontend/src/assets/image.png)
+
 The **Forest Fire Prediction System** is an advanced full-stack intelligence platform designed to mitigate environmental disasters through predictive modeling. By leveraging climate data from the Algerian Forest Fire dataset, the system utilizes a high-precision **Random Forest Classifier** to analyze complex correlations between meteorological variables and fire outbreaks. 
 
 This project integrates a robust **FastAPI** backend for immediate inference with a cutting-edge **React** frontend, providing an immersive, glassmorphic user experience. The architecture emphasizes data integrity by preventing model leakage through careful feature selection, ensuring that predictions are based on true environmental triggers. Designed for both scalability and professional aesthetics, this system serves as a bridge between environmental science and modern application development.
 
 ## 🚀 Setup Instructions
 
-### 1. Backend (FastAPI)
+### 1. Backend (FastAPI)    
 ```bash
 # Create and activate virtual environment
 python -m venv venv
