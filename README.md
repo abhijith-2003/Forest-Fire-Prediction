@@ -16,13 +16,13 @@ python -m venv venv
 source venv/bin/activate     # Linux/Mac
 
 # Install dependencies
-pip install -r backend/requirements.txt
+pip install -r requirements.txt
 
 # Run training (Optional: to regenerate models)
 python backend/train_model.py
 
 # Start the API server
-uvicorn backend.api.main:app --reload
+uvicorn api.main:app --reload
 ```
 
 ### 2. Frontend (React + Tailwind)
